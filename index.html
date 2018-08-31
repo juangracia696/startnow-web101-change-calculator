@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <title>Change Calculator</title>
+
+</head>
+
+<body>
+    
+
+  <img id="loading" src="https://image.ibb.co/f3dekT/imageedit_1_5059137135.png">
+  
+  <p><div style="position:unset"class="messenger has-text-white"id="messenger"></div></p>
+  
+  <!-- Write your markup here -->
+  <div class="block">
+    <label class="label has-text-white">How much is due for the sale</label>
+    <input type="number" class="input" placeholder="Enter Cost Total" id="amount-due">
+  </div>
+
+  <div>
+    <label class="label has-text-white">How much has the customer given you</label>
+    <input type="number" class="input" placeholder="Enter Cash Tentered" id="amount-received" />
+  </div>
+
+  <div class="column is-one-quarter"></div>
+
+  <button class="button has-text-white, element" id="calculate-change">Calculate</button>
+  </div>
+
+  <div class="column is-one-quarter"></div>
+
+
+
+
+  <div>
+    <label class="text is medium">Dollars:</label>
+    <p id="dollars-output" class="text"></p>
+    <br />
+  </div>
+  <div>
+    <label class="">Quarters:</label>
+    <p id="quarters-output" class="text"></p>
+    <br />
+  </div>
+  <div>
+    <label>Dimes:</label>
+    <p id="dimes-output" class="text"></p>
+    <br />
+  </div>
+  <div>
+    <label>Nickels:</label>
+    <p id="nickels-output"></p>
+    <br />
+  </div>
+  <div>
+    <label>Pennies:</label>
+    <p type="text" id="pennies-output"></p>
+    <br />
+  </div>
+
+  <div class="column is-one-quarter"></div>
+
+  <h1 class="title is-4 has-text-white">Change Calculator</h1>
+
+  <div class="column is-one-quarter"></div>
+
+  <div class="block">
+    <div class="card">
+      <footer class="card-footer">
+        <p class="card-footer-item">
+          <span>
+            <a href=""><i class="fa fa -twitter"></i>Twitter</a>
+          </span>
+        </p>
+        <p class="card-footer-item">
+          <span>
+            <a href=""><i class="fa fa facebook"></i>Facebook</a>
+          </span>
+        </p>
+      </footer>
+    </div>
+  </div>
+
+
+  <p></p>
+  <!-- Don't forget to add your <script> tag here -->
+  <script src="main.js"></script>
+</body>
+
+</html>
